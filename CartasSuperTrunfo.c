@@ -22,12 +22,31 @@
 
     // Entrada da carta 1
     printf("Cadastro da carta 1: \n");
+    printf("Estado:\n");
+    scanf("%d", &estado);
+
+    printf("Código da carta:\n");
+    scanf("%d", &código1);
+
+    printf("Nome da cidade:\n");
+    scanf("%d", &cidade);
+
+    primtf("População: \n");
+    sanf("%d", &população1);
+
+    printf("Area em Km²:\n");
+    scanf("%f", &area 1);
+
+    printf("PIB", \n);
+    scanf("%f", &pib 1);
+
+    printf("Número de pontos turisticos: \n");
+    scanf("%d", &pontos 1);
     
 
 
-
-
-
+    
+    
 
 
 } 
