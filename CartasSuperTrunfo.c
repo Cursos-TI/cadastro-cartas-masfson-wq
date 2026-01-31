@@ -24,7 +24,7 @@
 
     printf("Cadastro da carta 1: ");
     scanf("%d", &estado);
-    printf("Estado:\n");
+    printf("O nome do estado é:\n");
 
     printf("Código da carta: ");
     scanf("%d", &código1);
@@ -52,6 +52,10 @@
 
     // Cadastro da carta
     printf(" Cadastro da carta 2");
+    scanf("%d", &estado);
+    printf("O nome do Estado é: %d\n, Estado");
+
+    
     
     
 
