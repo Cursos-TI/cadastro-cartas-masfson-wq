@@ -21,27 +21,38 @@
     int pontos 2;
 
     // Entrada da carta 1
+
     printf("Cadastro da carta 1: \n");
-    printf("Estado:\n");
     scanf("%d", &estado);
+    printf("Estado:\n");
 
     printf("Código da carta:\n");
     scanf("%d", &código1);
+    printf("O codigo é: %f\n, codigo");
 
     printf("Nome da cidade:\n");
     scanf("%d", &cidade);
+    printf("A cidade é: %d, idade")
 
-    primtf("População: \n");
-    sanf("%d", &população1);
+    printf("População: \n");
+    scanf("%d", &população1);
+    printf("A população é: %f\n, populacao")
 
     printf("Area em Km²:\n");
     scanf("%f", &area 1);
+    printf("A área é: %f\n area");
+
 
     printf("PIB", \n);
     scanf("%f", &pib 1);
+    printf("A PIB é: %f")
 
     printf("Número de pontos turisticos: \n");
     scanf("%d", &pontos 1);
+    ´printf("O número de pontos turisticos são: %f");
+    
+
+
     
 
 
