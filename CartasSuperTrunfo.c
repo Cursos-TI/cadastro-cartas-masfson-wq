@@ -51,6 +51,7 @@
     scanf("%d", &pontos 1);
     ´printf("O número de pontos turisticos são: %f");
     
+    
 
 
     
