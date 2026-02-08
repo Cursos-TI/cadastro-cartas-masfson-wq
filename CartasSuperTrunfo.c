@@ -34,11 +34,11 @@
 
     printf("Nome da cidade: ");
     scanf("%s", &cidade);
-    printf("A cidade é: %s, idade")
+    printf("A cidade é: %s, idade");
 
     printf("População: ");
     scanf("%d", &população1);
-    printf("A população é: %f\n, populacao")
+    printf("A população é: %f\n, populacao");
 
     printf("Area em Km²: ");
     scanf("%f", &area 1);
