@@ -70,6 +70,12 @@
     printf("O numero da população é: %d");
 
     printf("O numero da população: ");
+    scanf("%f", &km²);
+    printf("A quilometragem é: %f);
+
+    
+
+
     
 
 
