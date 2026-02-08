@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
   // Desafio Super Trunfo - Países
@@ -48,12 +49,25 @@
 
     printf("Número de pontos turisticos: ");
     scanf("%d", &pontos 1);
-    ´printf("O número de pontos turisticos são: %f");
+    printf("O número de pontos turisticos são: %f");
 
-    // Cadastro da carta
-    printf(" Cadastro da carta 2");
+    /Entradatro da carta
+
+    printf("Cadastro da carta 2: ");
     scanf("%d", &estado);
     printf("O nome do Estado é: %d\n, Estado");
+
+    printf(" Codigo do carta: ");
+    scanf("%d", &codigo);
+    printf(" O codigo da carta 2 é: %d);
+
+
+
+
+
+
+
+
 
     
     
