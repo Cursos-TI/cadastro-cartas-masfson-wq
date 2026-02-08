@@ -36,20 +36,20 @@
     scanf("%s", &cidade);
     printf("A cidade é: %s\n", cidade);
 
-    printf("População: ");
-    scanf("%f", &população1);
-    printf("A população é: %f\n", populacao1);
+    printf("Populacao: ");
+    scanf("%d", &população1);
+    printf("O numero da populacao é: %d\n", populacao1);
 
-    printf("Area em Km²: ");
+    printf("Area em Km: ");
     scanf("%f", &area1);
-    printf("A área é: %f\n", area);
+    printf("A área é: %f\n", area1);
 
-    printf("pib: ");
+    printf("PIB: ");
     scanf("%f", &pib1);
-    printf("A pib é: %f", pib);
+    printf("O PIB é: %f", pib);
 
-    printf("Número de pontos turisticos: ");
-    scanf("%d", &pontos1);
+    printf("Numero de pontos turisticos: ");
+    scanf("%d", &pontos);
     printf("O número de pontos turisticos são: %d", pontos);
 
     /Entradatro da carta
@@ -66,8 +66,8 @@
     scanf("%s", &cidade);
     printf("O nome da cidade é: %s", cidade);
 
-    printf("População: ");
-    scanf("%d", &populacao1);
+    printf("Populacao: ");
+    scanf("%d", &populacao2);
     printf("O numero da população é: %d", população2);
 
     printf("Area me km²: ");
@@ -75,7 +75,7 @@
     printf("A area é: %f", area1);
 
     printf("PIB: ");
-    scanf("%f", &pib);
+    scanf("%f", &pib2);
     printf("O pib2 é: %f", pib2);
 
     printf("Numero de pontos turisticos: ");
