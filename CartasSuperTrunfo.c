@@ -33,8 +33,8 @@
     printf("O codigo é: %f\n, codigo");
 
     printf("Nome da cidade: ");
-    scanf("%d", &cidade);
-    printf("A cidade é: %d, idade")
+    scanf("%s", &cidade);
+    printf("A cidade é: %s, idade")
 
     printf("População: ");
     scanf("%d", &população1);
@@ -63,8 +63,8 @@
     printf(" O codigo da carta 2 é: %d);
 
     printf("Nome da cidade: ");
-    scanf("%d", &cidade);
-    printf("O nome da cidade é: %d");
+    scanf("%s", &cidade);
+    printf("O nome da cidade é: %s");
 
     printf("População: ");
     scanf("%d", &população);
