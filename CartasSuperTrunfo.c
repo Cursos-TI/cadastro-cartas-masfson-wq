@@ -4,23 +4,23 @@
   // Desafio Super Trunfo - Países
   // Tema 1 - Cadastro das carta 1
   int main(){
-    char estado-
-    1[20];
-    char codigo 1[10];
-    char cidade 1[30];
-    int população 1[30];
-    float área[50];
-    float Pib[50];
+
+    char estado1[20];
+    char codigo1[10];
+    char cidade1[30];
+    int populacao1[30];
+    float area1[50];
+    float pib[50];
     int pontos[10];
   
   // Tema 2 - Cadastro da cart 2
-    char estado 2[20];
-    char codigo 2[10];
-    char cidade 2[30];
-    int população 2;
-    float area 2;
-    float pib 2;
-    int pontos 2;
+    char estado2[20];
+    char codigo2[10];
+    char cidade2[30];
+    int população2;
+    float area2;
+    float pib2;
+    int pontos2;
 
     // Entrada da carta 1
 
@@ -79,10 +79,11 @@
     printf("O pib2 é: %f");
 
     printf("Numero de pontos turisticos: ");
+    
     scanf("%d", &pontos);
-    printf(" O numero de pontos turisticos são:"
+    printf(" O numero de pontos turisticos são: %d", pontos);
 
 
     return 0;
-      
+
 } 
