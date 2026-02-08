@@ -24,7 +24,7 @@
 
     // Entrada da carta 1
 
-    printf("Cadastro da carta 1: ");
+    printf(" O estado: ");
     scanf("%d", &estado);
     printf("O nome do estado é: %d\n", estado1);
 
@@ -34,18 +34,18 @@
 
     printf("Nome da cidade: ");
     scanf("%s", &cidade);
-    printf("A cidade é: %s, cidade");
+    printf("A cidade é: %s\n", cidade);
 
     printf("População: ");
     scanf("%d", &população1);
     printf("A população é: %f\n", populacao1);
 
     printf("Area em Km²: ");
-    scanf("%f", &area 1);
+    scanf("%f", &area1);
     printf("A área é: %f\n", area);
 
     printf("pib: ");
-    scanf("%f", &pib 1);
+    scanf("%f", &pib1);
     printf("A pib é: %f", pib);
 
     printf("Número de pontos turisticos: ");
