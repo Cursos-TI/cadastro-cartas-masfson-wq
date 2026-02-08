@@ -34,7 +34,7 @@
 
     printf("Nome da cidade: ");
     scanf("%s", &cidade);
-    printf("A cidade é: %s, idade");
+    printf("A cidade é: %s, cidade");
 
     printf("População: ");
     scanf("%d", &população1);
@@ -44,13 +44,13 @@
     scanf("%f", &area 1);
     printf("A área é: %f\n", area);
 
-    printf("PIB: ");
+    printf("pib: ");
     scanf("%f", &pib 1);
-    printf("A PIB é: %f", pib);
+    printf("A pib é: %f", pib);
 
     printf("Número de pontos turisticos: ");
     scanf("%d", &pontos1);
-    printf("O número de pontos turisticos são: %f", pontos);
+    printf("O número de pontos turisticos são: %d", pontos);
 
     /Entradatro da carta
 
@@ -67,16 +67,16 @@
     printf("O nome da cidade é: %s", cidade);
 
     printf("População: ");
-    scanf("%d", &população);
+    scanf("%d", &populacao1);
     printf("O numero da população é: %d", população2);
 
     printf("Area me km²: ");
     scanf("%f", &km²);
-    printf("A area é: %f);
+    printf("A area é: %f", area1);
 
     printf("PIB: ");
     scanf("%f", &pib);
-    printf("O pib2 é: %f", pib);
+    printf("O pib2 é: %f", pib2);
 
     printf("Numero de pontos turisticos: ");
     
