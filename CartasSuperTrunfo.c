@@ -61,6 +61,20 @@
     scanf("%d", &codigo);
     printf(" O codigo da carta 2 é: %d);
 
+    printf("Nome da cidade: ");
+    scanf("%d", &cidade);
+    printf("O nome da cidade é: %d");
+
+    printf("População: ");
+    scanf("%d", &população);
+    printf("O numero da população é: %d");
+
+    printf("O numero da população: ");
+    
+
+
+
+
 
 
 
