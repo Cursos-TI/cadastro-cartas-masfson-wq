@@ -10,8 +10,8 @@
     char cidade1[30];
     int populacao1[30];
     float area1[50];
-    float pib[50];
-    int pontos[10];
+    float pib1[50];
+    int pontos1[10];
   
   // Tema 2 - Cadastro da cart 2
     char estado2[20];
@@ -30,14 +30,14 @@
 
     printf("Código da carta: ");
     scanf("%d", &código1);
-    printf("O codigo é: %f\n", codigo1);
+    printf("O codigo é: %d\n", codigo1);
 
     printf("Nome da cidade: ");
     scanf("%s", &cidade);
     printf("A cidade é: %s\n", cidade);
 
     printf("População: ");
-    scanf("%d", &população1);
+    scanf("%f", &população1);
     printf("A população é: %f\n", populacao1);
 
     printf("Area em Km²: ");
