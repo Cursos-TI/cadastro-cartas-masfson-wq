@@ -26,11 +26,11 @@
 
     printf("Cadastro da carta 1: ");
     scanf("%d", &estado);
-    printf("O nome do estado é:\n");
+    printf("O nome do estado é: %d\n", estado1);
 
     printf("Código da carta: ");
     scanf("%d", &código1);
-    printf("O codigo é: %f\n, codigo");
+    printf("O codigo é: %f\n", codigo1);
 
     printf("Nome da cidade: ");
     scanf("%s", &cidade);
