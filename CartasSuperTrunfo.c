@@ -51,7 +51,7 @@
     scanf("%d", &pontos);
     printf("O número de pontos turisticos são: %d", pontos);
 
-    /Entradatro da carta
+    /Entrada da carta
 
     printf("Cadastro da carta 2: ");
     scanf("%d", &estado);
