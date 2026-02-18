@@ -1,80 +1,56 @@
-# Desafio Super Trunfo - Países - Cadastro das Cartas
+# 🃏 Super Trunfo - Cadastro de Cartas (Nível Novato)
 
-Bem-vindo ao desafio "Super Trunfo - Países"! No jogo Super Trunfo, os jogadores comparam as propriedades das cartas para determinar a mais forte. O tema deste Super Trunfo é "Países," onde você comparará as propriedades das cidades.
+Este projeto foi desenvolvido como o primeiro passo no aprendizado da linguagem C. Ele simula o sistema de cadastro de cartas de um jogo de Super Trunfo, focando na manipulação de dados de cidades e estados.
 
-A empresa MateCheck contratou você para desenvolver a parte inicial do jogo, que consiste no cadastro das cartas.
+## 📋 Sobre o Projeto
+O objetivo principal foi criar um programa que permita ao usuário inserir informações de duas cartas diferentes e, em seguida, exibir esses dados de forma organizada, incluindo cálculos básicos de indicadores.
 
-O desafio está dividido em três níveis: Novato, Aventureiro e Mestre, com cada nível adicionando mais complexidade ao anterior. Você deve escolher qual desafio quer realizar.
+## 🚀 Funcionalidades Desenvolvidas
+* **Entrada de Dados:** Uso de `scanf` e `fgets` para capturar nomes de cidades, populações e valores financeiros.
+* **Tipos de Dados:** Implementação de `unsigned long int` para suportar grandes populações e `float` para precisão em áreas e PIB.
+* **Cálculos Automáticos:**
+  * **Densidade Populacional:** Cálculo de habitantes por quilômetro quadrado.
+  * **PIB per Capita:** Divisão do PIB total pela população da cidade.
+* **Tratamento de Strings:** Uso da função `strcspn` para remover quebras de linha indesejadas na leitura dos nomes.
 
-### 🚨 Atenção: 
-O nível Novato do desafio é focado apenas no cadastro das cartas, utilizando as funções scanf para ler os dados e printf para exibi-los.
+## 🛠️ Tecnologias Utilizadas
+* **Linguagem C** (Compilador GCC)
+* **Visual Studio Code**
+* **Git e GitHub** para controle de versão
 
-## 🎮 Nível Novato
+## 🧠 O que eu aprendi neste nível
+1. Como declarar e inicializar variáveis de diferentes tipos.
+2. A importância de limpar o buffer do teclado ao ler diferentes tipos de dados.
+3. Como formatar a saída de números decimais para facilitar a leitura (ex: `%.2f`).
+4. O fluxo básico de versionamento de código (Add, Commit e Push).
 
-No nível Novato, você iniciará criando o sistema básico do jogo Super Trunfo com o tema "Países". As cartas serão divididas por estados, cada um com quatro cidades. 
+#           Nível aventureiro
+# 🃏 Super Trunfo - Cadastro de Países
 
-Cada país será dividido em oito estados, identificados pelas letras de A a H. Cada estado terá quatro cidades, numeradas de 1 a 4. A combinação da letra do estado e o número da cidade define o código da carta (por exemplo, A01, A02, B01, B02).
+Este projeto foi desenvolvido como parte do desafio de lógica de programação em C. O objetivo é cadastrar cartas de cidades/estados e calcular indicadores importantes para o jogo.
 
-### 🚩 Objetivo:
-- Criar cartas representando cidades, contendo as seguintes propriedades:
-  - **População**
-  - **Área**
-  - **PIB**
-  - **Número de pontos turísticos**
-  
-### ⚙️ Funcionalidades do Sistema:
-- O sistema permitirá ao usuário cadastrar cartas de cidades, inserindo manualmente os dados via terminal de comando.
-- Após o cadastro, o sistema exibirá os dados de cada cidade de forma clara e organizada.
+## 🚀 O que o programa faz?
+* **Cadastro de Cartas:** Registra Estado, Código, Nome da Cidade, População, Área e PIB.
+* **Cálculos Automáticos:** * **Densidade Populacional:** (População / Área)
+  * **PIB per Capita:** (PIB total convertido / População)
+* **Exibição de Dados:** Mostra os resultados formatados com duas casas decimais.
 
-### 📥 Entrada e 📤 Saída de Dados:
-- O usuário insere os dados de cada carta interativamente.
-- Após o cadastro, os dados são exibidos com todas as propriedades da cidade, uma por linha.
+## 🛠️ Tecnologias e Conceitos
+* **Linguagem C:** Uso de `unsigned long int` para grandes números de população.
+* **Manipulação de Strings:** Uso de `fgets` e `strcspn` para leitura limpa de nomes.
+* **Git/GitHub:** Controle de versão e organização de portfólio.
 
----
+# 🃏 Super Trunfo - Cadastro de Países
 
-## 🛡️ Nível Aventureiro
+Este projeto foi desenvolvido como parte do desafio de lógica de programação em C. O objetivo é cadastrar cartas de cidades/estados e calcular indicadores importantes para o jogo.
 
-No nível Aventureiro, você expandirá o sistema para incluir propriedades calculadas, permitindo uma análise mais detalhada das cartas.
+## 🚀 O que o programa faz?
+* **Cadastro de Cartas:** Registra Estado, Código, Nome da Cidade, População, Área e PIB.
+* **Cálculos Automáticos:** * **Densidade Populacional:** (População / Área)
+  * **PIB per Capita:** (PIB total convertido / População)
+* **Exibição de Dados:** Mostra os resultados formatados com duas casas decimais.
 
-### 🆕 Diferença em relação ao Nível Novato:
-- **Novas Propriedades Calculadas:**
-  - **Densidade Populacional:** População dividida pela área da cidade.
-  - **PIB per Capita:** PIB total dividido pela população.
-
-### ⚙️ Funcionalidades do Sistema:
-- O sistema agora calculará automaticamente a Densidade Populacional e o PIB per Capita com base nos dados inseridos.
-- Essas novas propriedades serão adicionadas às informações exibidas para cada cidade.
-
-### 📥 Entrada e 📤 Saída de Dados:
-- O usuário continua inserindo os dados de cada carta interativamente.
-- O sistema exibirá os dados, incluindo as novas propriedades calculadas, de forma clara e organizada.
-
----
-
-## 🏆 Nível Mestre
-
-No nível Mestre, você implementará comparações entre as cartas, utilizando operadores relacionais e manipulando grandes números com precisão.
-
-### 🆕 Diferença em relação ao Nível Aventureiro:
-- **Comparação de Cartas:**
-  - O sistema permitirá ao usuário comparar duas cartas com base nas propriedades inseridas e calculadas.
-  - Cada carta terá um "Super Poder", que é a soma de todas as propriedades.
-  
-### ⚙️ Funcionalidades do Sistema:
-- O sistema utilizará operadores relacionais para determinar a carta vencedora com base nas propriedades comparadas.
-- A comparação considerará:
-  - **Densidade Populacional:** Vence a carta com menor valor.
-  - **Outras Propriedades:** Vence a carta com maior valor.
-- O resultado das comparações será exibido claramente para cada propriedade.
-
-### 📥 Entrada e 📤 Saída de Dados:
-- O usuário insere as cartas a serem comparadas.
-- O sistema exibe os resultados das comparações, indicando a carta vencedora para cada propriedade.
-
----
-
-Ao concluir todos os níveis, você terá criado um sistema incial para o jogo Super Trunfo, com funcionalidades de cadastro, cálculo e comparação de propriedades. 
-
-Boa sorte e divirta-se programando!
-
-Equipe de Ensino - MateCheck
+## 🛠️ Tecnologias e Conceitos
+* **Linguagem C:** Uso de `unsigned long int` para grandes números de população.
+* **Manipulação de Strings:** Uso de `fgets` e `strcspn` para leitura limpa de nomes.
+* **Git/GitHub:** Controle de versão e organização de portfólio.
