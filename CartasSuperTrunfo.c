@@ -11,7 +11,7 @@ int main(){
     int populacao2, numero_pontos_turisticos2;
     float area2, PIB2;
 
-    // Teste Git
+    
 
     printf("\n--- CADASTRO DA CARTA 1 ---\n");
 
