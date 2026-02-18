@@ -54,3 +54,34 @@ Este projeto foi desenvolvido como parte do desafio de lógica de programação 
 * **Linguagem C:** Uso de `unsigned long int` para grandes números de população.
 * **Manipulação de Strings:** Uso de `fgets` e `strcspn` para leitura limpa de nomes.
 * **Git/GitHub:** Controle de versão e organização de portfólio.
+
+# 🃏 Super Trunfo Países - Nível Mestre
+
+Bem-vindo ao repositório do **Super Trunfo**, um projeto desenvolvido em **Linguagem C** para exercitar lógica de programação, manipulação de tipos de dados e operadores relacionais. Este projeto faz parte da minha jornada de transição para o desenvolvimento de software com foco em **Inteligência Artificial**.
+
+## 🚀 Sobre o Desafio
+O objetivo deste nível avançado foi criar um sistema de duelo entre duas cartas de cidades, onde o programa decide o vencedor baseado em diversos atributos técnicos.
+
+### 🧠 O que eu aprendi e apliquei:
+- **Gerenciamento de Memória e Tipos:** Uso de `unsigned long int` para tratar populações de grandes metrópoles, garantindo que não ocorra *overflow*.
+- **Precisão em Cálculos:** Implementação de densidade populacional e PIB per capita com `float`.
+- **Casting Explícito:** Conversão manual de tipos para garantir a precisão em operações matemáticas complexas.
+- **Lógica de Comparação:** Uso de operadores relacionais para determinar vencedores, incluindo a lógica invertida para o atributo de **Densidade Populacional**.
+- **O Inverso Matemático:** Criação do atributo **Super Poder**, que utiliza a soma de todos os dados e o inverso da densidade para equilibrar o jogo.
+
+## 🛠️ Tecnologias e Ferramentas
+* **Linguagem C** (Core do projeto)
+* **Git & GitHub** (Controle de versionamento)
+* **VS Code** (Ambiente de desenvolvimento)
+
+## ✍️ Diferencial de Estudo
+Como parte da minha metodologia de aprendizado "Deep Work", este código foi **escrito linha por linha à mão** em caderno antes da implementação digital. Isso me permitiu entender cada ponto e vírgula e fortalecer meu raciocínio lógico sem o auxílio de corretores automáticos.
+
+## 📈 Próximos Passos
+- [ ] Implementar estruturas de decisão `if/else` para tratar empates.
+- [ ] Migrar a lógica base para **Python**, visando integração futura com bibliotecas de IA.
+- [ ] Criar uma interface via terminal mais interativa.
+
+---
+**Conecte-se comigo:**
+https://www.linkedin.com/in/marcos-antonio-662b20146
