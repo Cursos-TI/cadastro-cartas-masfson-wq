@@ -5,7 +5,7 @@
 struct Carta {
     char estado[50], codigo[10], nomeCidade[50];
     int populacao, pontosTuristicos;
-    double area, pib, densidadePulacional, pibPercapita;
+    double area, pib, densidadePopulacional, pibPercapita;
 
 };
 
@@ -35,13 +35,13 @@ int main() {
     scanf("%lf", &carta1.area);  //1f para double
 
     printf("PIB (em bilhoes): ");
-    scanf("%1f", &carta1.pib);
+    scanf("%lf", &carta1.pib);
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &carta1.pontosTuristicos);
 
     // Cálculo automático
-    carta1.densidadePulacional = (float)carta1.populacao / carta1.area;
+    carta1.densidadePopulacional = carta1.populacao / carta1.area;
     carta1.pibPercapita = (carta1.pib * 1000000000) / carta1.populacao; // Convertendo bilhões para valor real
 
     // Exibição dos Dados (A elegância visual)
@@ -71,17 +71,24 @@ int main() {
     scanf("%d", &carta2.populacao);
 
     printf("Area (km²): ");
-    scanf("%f", &carta2.area);
+    scanf("%lf", &carta2.area);
 
     printf("PIB (em bilhoes): ");
-    scanf("%f", &carta2.pib);
+    scanf("%lf", &carta2.pib);
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &carta2.pontosTuristicos);
 
-    // Cálculo da densidade populacional e PIB per capita
-    carta2.densidadePopulacional = carta2.populacao / carta2.area;
-    carta2.pibPerCapita = carta2.pib / carta2.populacao;
+    // Cálculo automático
+    carta2.densidadePulacional = carta2.populacao / carta2.area;
+    carta2.pibPercapita = (carta2.pib * 1000000000) / carta2.populacao; // Convertendo bilhões para valor real
+
+    // Exibição dos Dados 
+    printf("\n--- Dados da Carta: %s ---\n", carta2.nomeCidade);
+    printf("Densidade Populacional: %.2f hab/km²\n", carta2.densidadePopulacional);
+    printf("PIB per Capita: R$ %.2f\n", carta2.pibPercapita);
+
+
 
     printf("\n");
 
@@ -105,6 +112,23 @@ int main() {
     }
     else {
         printf("\nResultado: Empate!\n");
+    }
+
+    // --- Comparação de PIB per Capita ---
+    printf("\n=====================================\n");
+    printf("Comparação de cartas (Atributo: PIB per Capita)\n\n");
+
+    printf("Carta 1 - %s: R$ %.2f\n", carta1.nomeCidade, carta1.pibPercapita);
+    printf("Carta 2 - %s: R$ %.2f\n", carta2.nomeCidade, carta2.pibPercapita);
+
+    if (carta1.pibPercapita > carta2.pibPercapita) {
+        printf("\nResultado: Carta 1 (%s) venceu no PIB!\n", carta1.nomeCidade);
+    }
+    else if (carta2.pibPercapita > carta1.pibPercapita) {
+        printf("\nResultado: Carta 2 (%s) venceu no PIB!\n", carta2.nomeCidade);
+    }
+    else {
+        printf("\nResultado: Empate no PIB!\n");
     }
 
     return 0;
