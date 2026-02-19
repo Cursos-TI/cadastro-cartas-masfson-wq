@@ -3,15 +3,10 @@
 
 // Estrutura para representar uma carta do Super Trunfo
 struct Carta {
-    char estado[50];
-    char codigo[10];
-    char nomeCidade[50];
-    int populacao;
-    float area;
-    float pib;
-    int pontosTuristicos;
-    float densidadePopulacional;
-    float pibPerCapita;
+    char estado[50], codigo[10], nomeCidade[50];
+    int populacao, pontosTuristicos;
+    double area, pib, densidadePulacional, pibPercapita;
+
 };
 
 int main() {
@@ -22,7 +17,7 @@ int main() {
     // ============================
     // Cadastro da Carta 1
     // ============================
-    printf("=== Cadastro da Carta 1 ===\n");
+    printf("=== Cadastro da Carta 1 ===\n\n");
 
     printf("Estado: ");
     scanf(" %[^\n]", carta1.estado);
@@ -37,19 +32,26 @@ int main() {
     scanf("%d", &carta1.populacao);
 
     printf("Area (km²): ");
-    scanf("%f", &carta1.area);
+    scanf("%lf", &carta1.area);  //1f para double
 
     printf("PIB (em bilhoes): ");
-    scanf("%f", &carta1.pib);
+    scanf("%1f", &carta1.pib);
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &carta1.pontosTuristicos);
 
-    // Cálculo da densidade populacional e PIB per capita
-    carta1.densidadePopulacional = carta1.populacao / carta1.area;
-    carta1.pibPerCapita = carta1.pib / carta1.populacao;
+    // Cálculo automático
+    carta1.densidadePulacional = (float)carta1.populacao / carta1.area;
+    carta1.pibPercapita = (carta1.pib * 1000000000) / carta1.populacao; // Convertendo bilhões para valor real
 
-    printf("\n");
+    // Exibição dos Dados (A elegância visual)
+    printf("\n--- Dados da Carta: %s ---\n", carta1.nomeCidade);
+    printf("Densidade Populacional: %.2f hab/km²\n", carta1.densidadePulacional);
+    printf("PIB per Capita: R$ %.2f\n", carta1.pibPercapita);
+
+    printf("\n\n");
+
+    
 
     // ============================
     // Cadastro da Carta 2
