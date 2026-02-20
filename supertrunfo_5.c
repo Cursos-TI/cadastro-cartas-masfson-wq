@@ -58,8 +58,6 @@ int main() {
     scanf(" %49[^\n]", carta2.nomeCidade);
 
     printf("Populacao: ");
-
-    
     scanf("%d", &carta2.populacao);
 
     printf("Area (km²): ");
@@ -71,8 +69,7 @@ int main() {
     printf("Numero de pontos turisticos: ");
     scanf("%d", &carta2.pontosTuristicos);
 
-    
-   // Cálculos automáticos Carta 2 com proteção
+    // Cálculos automáticos Carta 2 com proteção
     carta2.densidadePopulacional = (carta2.area > 0) ? ((double)carta2.populacao / carta2.area) : 0;
     carta2.pibPercapita = (carta2.populacao > 0) ? ((carta2.pib * 1e9) / (double)carta2.populacao) : 0;
 
