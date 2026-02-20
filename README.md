@@ -82,6 +82,44 @@ Como parte da minha metodologia de aprendizado "Deep Work", este código foi **e
 - [ ] Migrar a lógica base para **Python**, visando integração futura com bibliotecas de IA.
 - [ ] Criar uma interface via terminal mais interativa.
 
+# 🃏 Super Trunfo - Cartas de Cidades
+
+Este projeto é uma implementação simples em **C** de um jogo estilo **Super Trunfo**, onde cada carta representa uma cidade brasileira com atributos como população, área, PIB e pontos turísticos. O programa permite cadastrar duas cartas, calcular automaticamente indicadores derivados e compará-las em atributos específicos.
+
+---
+
+## ✨ Funcionalidades
+- Cadastro de duas cartas com os seguintes atributos:
+  - Estado
+  - Código da carta
+  - Nome da cidade
+  - População
+  - Área (km²)
+  - PIB (em bilhões)
+  - Número de pontos turísticos
+- Cálculo automático de:
+  - **Densidade populacional** (hab/km²)
+  - **PIB per capita** (R$ por habitante)
+- Comparação entre cartas nos atributos:
+  - População
+  - PIB per capita
+
+---
+
+## 📂 Estrutura do Código
+- `struct Carta`: Estrutura que armazena os dados de cada cidade.
+- Funções principais:
+  - Entrada de dados via `scanf`.
+  - Cálculo de densidade populacional e PIB per capita.
+  - Impressão formatada dos resultados.
+  - Comparação entre cartas usando condicionais (`if`, `else if`, `else`).
+
+---
+
+## 🚀 Como Executar
+1. Compile o programa:
+   ```bash
+   gcc super_trunfo.c -o super_trunfo
 ---
 **Conecte-se comigo:**
 https://www.linkedin.com/in/marcos-antonio-662b20146
