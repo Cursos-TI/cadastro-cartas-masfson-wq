@@ -42,11 +42,11 @@ int main() {
 
     // Cálculo automático
     carta1.densidadePopulacional = carta1.populacao / carta1.area;
-    carta1.pibPercapita = (carta1.pib * 1000000000) / carta1.populacao; // Convertendo bilhões para valor real
+    carta1.pibPercapita = (carta1.pib * 1000000000.0) / carta1.populacao; // Convertendo bilhões para valor real
 
     // Exibição dos Dados (A elegância visual)
     printf("\n--- Dados da Carta: %s ---\n", carta1.nomeCidade);
-    printf("Densidade Populacional: %.2f hab/km²\n", carta1.densidadePulacional);
+    printf("Densidade Populacional: %.2f hab/km²\n", carta1.densidadePopulacional);
     printf("PIB per Capita: R$ %.2f\n", carta1.pibPercapita);
 
     printf("\n\n");
@@ -80,7 +80,7 @@ int main() {
     scanf("%d", &carta2.pontosTuristicos);
 
     // Cálculo automático
-    carta2.densidadePulacional = carta2.populacao / carta2.area;
+    carta2.densidadePopulacional = carta2.populacao / carta2.area;
     carta2.pibPercapita = (carta2.pib * 1000000000) / carta2.populacao; // Convertendo bilhões para valor real
 
     // Exibição dos Dados 
