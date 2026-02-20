@@ -42,9 +42,9 @@ int main() {
     printf("Numero de pontos turisticos: ");
     scanf("%d", &carta1.pontosTuristicos);
 
-    // Cálculos automáticos Carta 1
-    carta1.densidadePopulacional = (double)carta1.populacao / carta1.area;
-    carta1.pibPercapita = (carta1.pib * 1e9) / (double)carta1.populacao;
+    // Cálculos automáticos Carta 1 com proteção
+    carta1.densidadePopulacional = (carta1.area > 0) ? ((double)carta1.populacao / carta1.area) : 0;
+    carta1.pibPercapita = (carta1.populacao > 0) ? ((carta1.pib * 1e9) / (double)carta1.populacao) : 0;
 
     // ============================
     // Cadastro da Carta 2
@@ -71,9 +71,11 @@ int main() {
     printf("Numero de pontos turisticos: ");
     scanf("%d", &carta2.pontosTuristicos);
 
-    // Cálculos automáticos Carta 2
-    carta2.densidadePopulacional = (double)carta2.populacao / carta2.area;
-    carta2.pibPercapita = (carta2.pib * 1e9) / (double)carta2.populacao;
+    
+    // Cálculos automáticos Carta 1 com proteção
+    carta2.densidadePopulaciona2 = (carta2.area > 0) ? ((double)carta2.populacao / carta2.area) : 0;
+    carta2.pibPercapita = (carta2.populacao > 0) ? ((carta2.pib * 1e9) / (double)carta2.populacao) : 0;
+
 
     // ============================
     // MENU INTERATIVO
