@@ -73,7 +73,7 @@ int main() {
 
     
     // Cálculos automáticos Carta 1 com proteção
-    carta2.densidadePopulaciona2 = (carta2.area > 0) ? ((double)carta2.populacao / carta2.area) : 0;
+    carta2.densidadePopulacional = (carta2.area > 0) ? ((double)carta2.populacao / carta2.area) : 0;
     carta2.pibPercapita = (carta2.populacao > 0) ? ((carta2.pib * 1e9) / (double)carta2.populacao) : 0;
 
 
