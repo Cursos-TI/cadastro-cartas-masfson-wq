@@ -5,7 +5,7 @@
 // Estrutura para representar uma carta do Super Trunfo
 struct Carta {
     char estado[50], codigo[10], nomeCidade[50];
-    int populacao, pontosTutisticos;
+    int populacao, pontosTuristicos;
     double area, pib;
     double densidadePopulacional, pibPercapita;
 };
