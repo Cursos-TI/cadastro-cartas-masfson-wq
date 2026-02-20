@@ -4,15 +4,10 @@
 
 // Estrutura para representar uma carta do Super Trunfo
 struct Carta {
-    char estado[50];
-    char codigo[10];
-    char nomeCidade[50];
-    int populacao;
-    int pontosTuristicos;
-    double area;
-    double pib; // em bilhões
-    double densidadePopulacional;
-    double pibPercapita;
+    char estado[50], codigo[10], nomeCidade[50];
+    int populacao, pontosTutisticos;
+    double area, pib;
+    double densidadePopulacional, pibPercapita;
 };
 
 // Função para verificar empate em valores double
