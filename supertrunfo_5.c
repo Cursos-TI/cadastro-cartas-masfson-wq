@@ -63,6 +63,8 @@ int main() {
     scanf(" %49[^\n]", carta2.nomeCidade);
 
     printf("Populacao: ");
+
+    
     scanf("%d", &carta2.populacao);
 
     printf("Area (km²): ");

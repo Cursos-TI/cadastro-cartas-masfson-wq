@@ -70,7 +70,7 @@ int main() {
 
     // Cálculos Carta 2
     densidade2 = (float)populacao2 / area2;
-    pib_per_capita2 = pib1 / (float)populacao2;
+    pib_per_capita2 = pib2 / (float)populacao2;
     super_poder2 = (float)populacao2 + area2 + pib2 + (float)pontos2 + pib_per_capita2 + (1.0f / densidade2);
 
     printf("      COMPARAÇÃO DE CARTAS      \n");
@@ -87,4 +87,4 @@ int main() {
     printf("Super Poder: %.2f vs %.2f -> Carta %d (%d)\n", super_poder1, super_poder2, (super_poder1 > super_poder2 ? 1 : 2), (super_poder1 > super_poder2));
 
     return 0;
-]
+}
