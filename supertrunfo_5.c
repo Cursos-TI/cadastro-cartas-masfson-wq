@@ -72,10 +72,9 @@ int main() {
     scanf("%d", &carta2.pontosTuristicos);
 
     
-    // Cálculos automáticos Carta 1 com proteção
+    // Cálculos automáticos Carta 2 com proteção
     carta2.densidadePopulacional = (carta2.area > 0) ? ((double)carta2.populacao / carta2.area) : 0;
     carta2.pibPercapita = (carta2.populacao > 0) ? ((carta2.pib * 1e9) / (double)carta2.populacao) : 0;
-
 
     // ============================
     // MENU INTERATIVO
