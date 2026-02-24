@@ -13,7 +13,8 @@ struct Carta {
 
 // Função para comparar decimais com precisão
 int empateDouble(double a, double b) {
-    return fabs(a - b) < 0.0001;
+    double epsilon = 0.000001; // margem de erro
+    return fabs(a - b) < epsilon;
 }
 
 int main() {
